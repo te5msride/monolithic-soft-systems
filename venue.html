@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Monolithic Soft Systems | Venue</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a class="brand" href="index.html">Monolithic Soft Systems</a>
+      <button class="hamburger" aria-label="Toggle menu">☰</button>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="submission.html">Call for Contributions</a></li>
+        <li><a class="active" href="venue.html">Venue</a></li>
+      </ul>
+    </nav>
+
+    <main class="section">
+      <h1>Venue &amp; Dates</h1>
+      <ul class="bullets">
+        <li>
+          <strong>Date:</strong> April 7 or April 11, 2026 (to be confirmed by
+          conference)
+        </li>
+        <li>
+          <strong>Location:</strong> Kanazawa, Japan — Ishikawa Ongakudo and the
+          Kanazawa Hotel
+        </li>
+        <li>
+          <strong>Conference:</strong>
+          <a href="https://www.robosoft2026.org/" target="_blank" rel="noopener"
+            >RoboSoft 2026</a
+          >
+        </li>
+      </ul>
+
+      <div class="map-embed">
+        <!-- Replace with the conference venue embed when finalized -->
+        <iframe
+          title="Kanazawa Map"
+          loading="lazy"
+          src="https://www.google.com/maps?q=Kanazawa,%20Japan&output=embed"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <p class="muted small">
+        Travel, accommodation, and local info will be posted once the conference
+        releases official details.
+      </p>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Monolithic Soft Systems Workshop</p>
+    </footer>
+    <script>
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", () =>
+          document.querySelector(".links").classList.toggle("open")
+        );
+    </script>
+  </body>
+</html>

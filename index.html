@@ -3,27 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Monolithic Soft Systems | RoboSoft 2026</title>
+    <title>Monolithic Soft Systems | Home</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- NAV -->
     <nav class="nav">
-      <div class="nav__brand">Monolithic Soft Systems</div>
-      <button class="nav__toggle" aria-label="Toggle menu">☰</button>
-      <ul class="nav__links">
-        <li><a href="#home" class="nav__link">Home</a></li>
-        <li><a href="#agenda" class="nav__link">Agenda</a></li>
-        <li><a href="#speakers" class="nav__link">Speakers</a></li>
-        <li>
-          <a href="#submission" class="nav__link">Call for Contributions</a>
-        </li>
-        <li><a href="#venue" class="nav__link">Venue</a></li>
+      <a class="brand" href="index.html">Monolithic Soft Systems</a>
+      <button class="hamburger" aria-label="Toggle menu">☰</button>
+      <ul class="links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="submission.html">Call for Contributions</a></li>
+        <li><a href="venue.html">Venue</a></li>
       </ul>
     </nav>
 
-    <!-- HERO / HOME -->
-    <header id="home" class="hero">
+    <header class="hero">
       <div class="hero__content">
         <p class="eyebrow">Proposed Workshop — IEEE RoboSoft 2026</p>
         <h1>Monolithic Soft Systems</h1>
@@ -32,165 +28,71 @@
           next-generation robotics
         </p>
         <div class="cta-row">
-          <a class="btn" href="#submission">Abstract / Poster Submission</a>
-          <a class="btn btn--ghost" href="#agenda">View Agenda</a>
+          <a class="btn" href="submission.html">Submit an Abstract/Poster</a>
+          <a class="btn btn--ghost" href="agenda.html">View Agenda</a>
         </div>
       </div>
     </header>
 
-    <!-- OVERVIEW -->
-    <section class="section">
-      <h2>Overview</h2>
+    <main class="section">
+      <h2>Abstract</h2>
       <p>
-        This workshop unites researchers advancing integrated approaches for
-        co-design, fabrication, modeling, and control of monolithic soft robotic
-        systems. We aim to surface emerging methods that merge material, design,
-        and control domains to push the boundaries of embodied intelligence.
+        As the field of soft robotics continues to grow, simulation tools,
+        sensing strategies, and fabrication methods are beginning to mature,
+        providing a stronger foundation than ever before. Yet this progress
+        brings a key question: should traditional robotics approaches be taken
+        as examples, or do we need to rethink our design strategies to push the
+        field forward?
       </p>
-    </section>
-
-    <!-- AGENDA -->
-    <section id="agenda" class="section">
-      <h2>Agenda (Tentative)</h2>
-      <div class="table-wrap">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Time</th>
-              <th>Session</th>
-              <th>Details</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>09:00–09:10</td>
-              <td>Opening Remarks</td>
-              <td>Organizers</td>
-            </tr>
-            <tr>
-              <td>09:10–10:10</td>
-              <td>Invited Talks I</td>
-              <td>Materials &amp; Fabrication</td>
-            </tr>
-            <tr>
-              <td>10:10–10:30</td>
-              <td>Break</td>
-              <td>—</td>
-            </tr>
-            <tr>
-              <td>10:30–11:30</td>
-              <td>Invited Talks II</td>
-              <td>Co-Design &amp; Simulation</td>
-            </tr>
-            <tr>
-              <td>11:30–12:00</td>
-              <td>Lightning Talks</td>
-              <td>Contributed abstracts</td>
-            </tr>
-            <tr>
-              <td>12:00–13:00</td>
-              <td>Poster Session</td>
-              <td>Student Competition (pending sponsor)</td>
-            </tr>
-            <tr>
-              <td>13:00–13:10</td>
-              <td>Closing &amp; Awards</td>
-              <td>Organizers</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- SPEAKERS -->
-    <section id="speakers" class="section">
-      <h2>Invited Speakers (in progress)</h2>
-      <div class="grid">
-        <!-- Duplicate these cards per speaker -->
-        <article class="card">
-          <div class="card__img placeholder">Photo</div>
-          <div class="card__body">
-            <h3>Speaker Name</h3>
-            <p class="muted">Affiliation</p>
-            <p class="small">Tentative talk: “Title TBD”</p>
-          </div>
-        </article>
-        <article class="card">
-          <div class="card__img placeholder">Photo</div>
-          <div class="card__body">
-            <h3>Speaker Name</h3>
-            <p class="muted">Affiliation</p>
-            <p class="small">Tentative talk: “Title TBD”</p>
-          </div>
-        </article>
-        <!-- End speaker card -->
-      </div>
-    </section>
-
-    <!-- CALL FOR CONTRIBUTIONS -->
-    <section id="submission" class="section">
-      <h2>Call for Contributions</h2>
       <p>
-        We welcome 1–2 page abstracts for lightning talks and posters in the
-        following areas:
+        Unlike rigid robots, soft robots face inherent challenges of material
+        mismatch, creating unique demands for sensing, modeling, and control
+        that are inseparable from fabrication and material choice. Bridging this
+        gap calls for <em>monolithic soft systems</em>, where actuation,
+        sensing, and structure are developed together through shared design
+        strategies.
       </p>
+      <p>
+        Part I of this workshop highlights enabling technologies — advances in
+        simulation, embedded sensing, and fabrication. Part II focuses on
+        interdisciplinary workflows: how teams fabricate, iterate, integrate,
+        and simulate. By combining perspectives from engineering, biology, and
+        materials science, the workshop aims to chart methods and collaborative
+        practices that accelerate progress in soft robotics.
+      </p>
+
+      <hr class="spacer" />
+
+      <h2>Organizers</h2>
       <ul class="bullets">
         <li>
-          Materials and fabrication for monolithic actuators and structures
+          Trevor Exley (Primary Contact), Istituto Italiano di Tecnologia —
+          trevor.exley@iit.it
+        </li>
+        <li>Majid Taghavi, Imperial College London (UK)</li>
+        <li>Felix Vanneste, INRIA (France)</li>
+        <li>Christian Duriez, INRIA (France)</li>
+        <li>Lucia Beccai, Istituto Italiano di Tecnologia (Italy)</li>
+      </ul>
+
+      <hr class="spacer" />
+
+      <h2>Event Snapshot (if accepted)</h2>
+      <ul class="bullets">
+        <li><strong>Date:</strong> April 7 or April 11, 2026</li>
+        <li>
+          <strong>Venue:</strong> Ishikawa Ongakudo and the Kanazawa Hotel,
+          Kanazawa, Japan
         </li>
         <li>
-          Co-design frameworks, digital twins, and multiphysics simulation
+          <strong>Conference:</strong>
+          <a href="https://www.robosoft2026.org/" target="_blank" rel="noopener"
+            >RoboSoft 2026</a
+          >
         </li>
-        <li>Embedded sensing, modeling, and control for integrated systems</li>
-        <li>Applications, benchmarks, and reproducible workflows</li>
+        <li><strong>Talk Duration:</strong> ~20 minutes including Q&amp;A</li>
       </ul>
-      <div class="grid grid--two">
-        <div>
-          <h3>Submission Format</h3>
-          <ul class="bullets">
-            <li>2 pages max (including figures, excluding references)</li>
-            <li>PDF, IEEE format (template link soon)</li>
-            <li>Optional: 1-minute video teaser (unlisted link)</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Important Dates (tentative)</h3>
-          <ul class="bullets">
-            <li>Submission opens: TBA</li>
-            <li>Deadline: TBA (~1 month before conference)</li>
-            <li>Notification: TBA</li>
-          </ul>
-        </div>
-      </div>
-      <div class="cta-row">
-        <a class="btn" href="#" aria-disabled="true">Submit (link soon)</a>
-        <a class="btn btn--ghost" href="#" aria-disabled="true"
-          >IEEE Template (soon)</a
-        >
-      </div>
-      <p class="small muted">
-        Poster Competition: student awards pending sponsor confirmation.
-      </p>
-    </section>
-
-    <!-- VENUE -->
-    <section id="venue" class="section">
-      <h2>Venue</h2>
-      <p>
-        RoboSoft 2026 — City, Country (venue details forthcoming). Travel and
-        accommodation information will be posted after acceptance.
-      </p>
-      <!-- Example map embed (replace when details known) -->
-      <div class="map-embed">
-        <iframe
-          title="Map"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d0!2d0!3d0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v0000000000000"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
+    </main>
 
     <footer class="footer">
       <p>
@@ -200,42 +102,9 @@
     </footer>
 
     <script>
-      // Mobile menu toggle
-      const toggle = document.querySelector(".nav__toggle");
-      const links = document.querySelector(".nav__links");
-      toggle.addEventListener("click", () => links.classList.toggle("open"));
-
-      // Smooth scroll + close mobile menu
-      document.querySelectorAll(".nav__link").forEach((a) => {
-        a.addEventListener("click", (e) => {
-          const id = a.getAttribute("href");
-          if (id.startsWith("#")) {
-            e.preventDefault();
-            document
-              .querySelector(id)
-              .scrollIntoView({ behavior: "smooth", block: "start" });
-            links.classList.remove("open");
-            history.replaceState(null, "", id);
-          }
-        });
-      });
-
-      // Scrollspy (highlight active tab)
-      const sections = [...document.querySelectorAll("section, header.hero")];
-      const navLinks = [...document.querySelectorAll(".nav__link")];
-      const spy = () => {
-        const y = window.scrollY + 100;
-        let current = sections[0].id || "home";
-        sections.forEach((s) => {
-          const top = s.offsetTop;
-          if (y >= top) current = s.id || "home";
-        });
-        navLinks.forEach((l) =>
-          l.classList.toggle("active", l.getAttribute("href") === "#" + current)
-        );
-      };
-      window.addEventListener("scroll", spy);
-      window.addEventListener("load", spy);
+      const btn = document.querySelector(".hamburger");
+      const links = document.querySelector(".links");
+      btn.addEventListener("click", () => links.classList.toggle("open"));
     </script>
   </body>
 </html>
