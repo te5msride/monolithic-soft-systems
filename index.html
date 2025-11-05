@@ -21,8 +21,8 @@
 
     <header class="hero">
       <div class="hero__content">
-        <p class="eyebrow">Proposed Workshop — IEEE RoboSoft 2026</p>
-        <h1>Monolithic Soft Systems</h1>
+        <p class="eyebrow">Proposed Full-day Workshop — IEEE RoboSoft 2026</p>
+        <h1>MONOLITHIC SOFT SYSTEMS</h1>
         <p class="subtitle">
           Co-design tools, materials, and fabrication strategies for
           next-generation robotics
@@ -37,28 +37,21 @@
     <main class="section">
       <h2>Abstract</h2>
       <p>
-        As the field of soft robotics continues to grow, simulation tools,
-        sensing strategies, and fabrication methods are beginning to mature,
-        providing a stronger foundation than ever before. Yet this progress
-        brings a key question: should traditional robotics approaches be taken
-        as examples, or do we need to rethink our design strategies to push the
-        field forward?
+        Soft robotics is maturing: simulation, sensing, and fabrication are
+        stronger than ever, but the field faces a key choice— follow traditional
+        robotics patterns or rethink design strategies. Because material
+        mismatch makes sensing, modeling, and control inseparable from
+        fabrication and material choice, we advocate
+        <em>monolithic soft systems</em> where actuation, sensing, and structure
+        are co-developed through shared design strategies.
       </p>
       <p>
-        Unlike rigid robots, soft robots face inherent challenges of material
-        mismatch, creating unique demands for sensing, modeling, and control
-        that are inseparable from fabrication and material choice. Bridging this
-        gap calls for <em>monolithic soft systems</em>, where actuation,
-        sensing, and structure are developed together through shared design
-        strategies.
-      </p>
-      <p>
-        Part I of this workshop highlights enabling technologies — advances in
-        simulation, embedded sensing, and fabrication. Part II focuses on
-        interdisciplinary workflows: how teams fabricate, iterate, integrate,
-        and simulate. By combining perspectives from engineering, biology, and
-        materials science, the workshop aims to chart methods and collaborative
-        practices that accelerate progress in soft robotics.
+        Part I highlights enabling technologies (simulation, embedded sensing,
+        fabrication). Part II showcases realized integrated and monolithic
+        systems where structure, actuation, and sensing operate as one. Through
+        talks, posters, and discussions, we will outline practical routes to
+        truly integrated soft machines and clarify what “monolithic” means in
+        practice.
       </p>
 
       <hr class="spacer" />
@@ -66,13 +59,25 @@
       <h2>Organizers</h2>
       <ul class="bullets">
         <li>
-          Trevor Exley (Primary Contact), Istituto Italiano di Tecnologia —
-          trevor.exley@iit.it
+          <strong>Trevor Exley</strong> (Primary Contact) — Postdoc, Istituto
+          Italiano di Tecnologia —
+          <a href="mailto:trevor.exley@iit.it">trevor.exley@iit.it</a>
         </li>
-        <li>Majid Taghavi, Imperial College London (UK)</li>
-        <li>Felix Vanneste, INRIA (France)</li>
-        <li>Christian Duriez, INRIA (France)</li>
-        <li>Lucia Beccai, Istituto Italiano di Tecnologia (Italy)</li>
+        <li>
+          <strong>Majid Taghavi</strong> — Senior Lecturer, Imperial College
+          London —
+          <a href="mailto:m.taghavi@imperial.ac.uk">m.taghavi@imperial.ac.uk</a>
+        </li>
+        <li>
+          <strong>Felix Vanneste</strong> — Postdoc, EnsadLab – École des Arts
+          Décoratifs —
+          <a href="mailto:felix.vanneste@ensad.fr">felix.vanneste@ensad.fr</a>
+        </li>
+        <li>
+          <strong>Lucia Beccai</strong> — Senior Researcher, Istituto Italiano
+          di Tecnologia —
+          <a href="mailto:lucia.beccai@iit.it">lucia.beccai@iit.it</a>
+        </li>
       </ul>
 
       <hr class="spacer" />
@@ -81,8 +86,12 @@
       <ul class="bullets">
         <li><strong>Date:</strong> April 7 or April 11, 2026</li>
         <li>
-          <strong>Venue:</strong> Ishikawa Ongakudo and the Kanazawa Hotel,
+          <strong>Venue:</strong> Ishikawa Ongakudo &amp; the Kanazawa Hotel,
           Kanazawa, Japan
+        </li>
+        <li>
+          <strong>Format:</strong> Full-day workshop; talks ~20 minutes
+          including Q&amp;A
         </li>
         <li>
           <strong>Conference:</strong>
@@ -90,7 +99,6 @@
             >RoboSoft 2026</a
           >
         </li>
-        <li><strong>Talk Duration:</strong> ~20 minutes including Q&amp;A</li>
       </ul>
     </main>
 
@@ -102,9 +110,11 @@
     </footer>
 
     <script>
-      const btn = document.querySelector(".hamburger");
-      const links = document.querySelector(".links");
-      btn.addEventListener("click", () => links.classList.toggle("open"));
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", () =>
+          document.querySelector(".links").classList.toggle("open")
+        );
     </script>
   </body>
 </html>
